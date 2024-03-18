@@ -1,8 +1,32 @@
 // Specific CSS for your home-page
 .container {
   background-color: white;
-  width: 50%;
-  height: 100vh;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width: 75%;
+  height: 75vh;
+  margin-top: 87px;
+  padding: 30px;
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.25);
+}
+
+.btn i {
+  /*1*/
+  transition: all 0.2s linear;
+}
+
+.btn .text {
+  width: 112px;
+  opacity: 0;
+  font-size: x-large;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  text-align: center;
+  top: 410px;
+}
+
+.btn:hover i {
+  opacity: 0;
+}
+
+.btn:hover .text {
+  opacity: 1;
 }
