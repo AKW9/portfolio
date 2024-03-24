@@ -16,11 +16,11 @@
 .btn .text {
   width: 128px;
   opacity: 0;
-  font-size: x-large;
+  font-size: small;
   transition: all 0.4s ease-in-out;
   position: absolute;
   text-align: center;
-  top: 407px;
+  top: 1000px;
 }
 
 .btn:hover i {
@@ -42,8 +42,9 @@ h1 {
 .arrow-container {
   display: flex;
   justify-content: center;
-  position: fixed;
+  position: absolute;
   bottom: 10px;
+  left: auto;
   transform: translateX(-50%);
   transition: 500ms ease-in-out;
 }
@@ -54,4 +55,11 @@ h1 {
 
 .name {
   color: white;
+}
+
+.sns {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 20px;
 }
