@@ -38,3 +38,20 @@
 h1 {
   font-size: 5rem;
 }
+
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 10px;
+  transform: translateX(-50%);
+  transition: 500ms ease-in-out;
+}
+
+.arrow-container:hover {
+  bottom: 0;
+}
+
+.name {
+  color: white;
+}
