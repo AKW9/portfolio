@@ -72,7 +72,8 @@ h1 {
   // p {
   //   grid-column-start: span 3;
   // }
-  height: 100vh;
+  height: 75vh;
+  flex-direction: column;
 }
 
 h3 {
