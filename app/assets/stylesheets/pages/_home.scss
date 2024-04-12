@@ -67,11 +67,12 @@ h1 {
 }
 
 .about {
-  display: grid;
+  display: flex;
+  justify-content: center;
+  // p {
+  //   grid-column-start: span 3;
+  // }
   height: 100vh;
-  p {
-    grid-column-start: span 3;
-  }
 }
 
 h3 {
