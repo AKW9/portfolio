@@ -23,41 +23,49 @@
   </div>
 </div>
 <div class="container" id="content">
-  <h3 id="start">About me</h3>
-  <div class="about">
-    <p>Hi, I'm Nina, a eldery care worker currently looking for a new challenge as a full-stack web development.</p>
-    <p>I am currently living in Chiba, Japan after graduating with bachelor degree in business administration spesializing in Accounting and Finance. </p>
-    <p>Outside of my work, I enjoy reading, listening to music and dancing - albeit not that great at it.</p>
+  <div class="about-box" id="start">
+    <h3>About me</h3>
+    <div class="about">
+      <%= image_tag "proffesional_picture_squared" %>
+      <div class="about-content">
+        <p>Hi, I'm Nina, a eldery care worker currently looking for a new challenge as a full-stack web development.</p>
+        <p>I am currently living in Chiba, Japan after graduating with bachelor degree in business administration spesializing in Accounting and Finance. </p>
+        <p>Outside of my work, I enjoy reading, listening to music and dancing - albeit not that great at it.</p>
+      </div>
+    </div>
   </div>
   <h3>Project</h3>
   <div>
-    <div class="care-key-img">
-      <%= image_tag "care-key.png" %>
-    </div>
-    <div class="care-key-content">
+    <div class="project-img">
       <h4><a href="https://www.carekey.beauty/" style="text-decoration: none; color:black">Care-key</a></h4>
-      <p>Care Key is your personal companion for self-care and motivation. Care Key is designed to help you take better care of yourself by providing reminders, motivation, and tracking for essential daily tasks such as sleep, nutrition, exercise, and more. With customizable features and a reward system, Care Key makes self-care fun and engaging.</p>
-      <p style="font-size: 13px"><em>Warning: the layout is set with phone in mind. Please open only using phone.</em></p>
+      <%= image_tag "care-key.png" %>
+      <div class="project-content">
+        <p>Care Key is your personal companion for self-care and motivation. Care Key is designed to help you take better care of yourself by providing reminders, motivation, and tracking for essential daily tasks such as sleep, nutrition, exercise, and more. With customizable features and a reward system, Care Key makes self-care fun and engaging.</p>
+        <p style="font-size: 13px"><em>Warning: the layout is set with phone in mind. Please open only using phone.</em></p>
+      </div>
     </div>
-    <%= image_tag "paw-time.png" %>
-    <h4>Paw Time</h4>
-    <p>Paw Time is a web application designed to connect animal lovers with shelters, providing a platform for booking time to spend with pets, volunteering in shelters, or exploring adoption opportunities. Whether you're looking to spend quality time with furry friends, lend a helping hand, or find your perfect companion, Paw Time simplifies the process by offering an intuitive booking system.</p>
+    <div class="project-img">
+      <h4>Paw Time</h4>
+      <%= image_tag "paw-time.png" %>
+      <div class="project-content">
+        <p>Paw Time is a web application designed to connect animal lovers with shelters, providing a platform for booking time to spend with pets, volunteering in shelters, or exploring adoption opportunities. Whether you're looking to spend quality time with furry friends, lend a helping hand, or find your perfect companion, Paw Time simplifies the process by offering an intuitive booking system.</p>
+      </div>
+    </div>
   </div>
-</div>
-<div class="sns">
-  <div class="grid text-center m-4 d-flex justify-content-between text-center">
-    <button type="button" class="btn g-col-4 align-middle" id="toggle" >
-      <a href="mailto:wong.karenina@gmail.com" style="color: black"><i class="fa-solid fa-envelope fa-xl"></i></a>
-    </button>
-    <button type="button" class=" btn g-col-4 align-middle">
-      <a href="https://github.com/AKW9" style="color: black"><i class="fa-brands fa-github fa-xl"></i></a>
-    </button>
-    <button type="button" class=" btn g-col-4 align-middle">
-      <a href="https://www.linkedin.com/in/karenina-wongsordjo-b38501176/" style="color: black"><i class="fa-brands fa-linkedin fa-xl"></i></a>
-    </button>
+  <div class="sns">
+    <div class="grid text-center m-4 d-flex justify-content-between text-center">
+      <button type="button" class="btn g-col-4 align-middle" id="toggle" >
+        <a href="mailto:wong.karenina@gmail.com" style="color: black"><i class="fa-solid fa-envelope fa-xl"></i></a>
+      </button>
+      <button type="button" class=" btn g-col-4 align-middle">
+        <a href="https://github.com/AKW9" style="color: black"><i class="fa-brands fa-github fa-xl"></i></a>
+      </button>
+      <button type="button" class=" btn g-col-4 align-middle">
+        <a href="https://www.linkedin.com/in/karenina-wongsordjo-b38501176/" style="color: black"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+      </button>
+    </div>
   </div>
-</div>
-<%# <div class="contact-form" id="cf" style="display:none">
+  <%# <div class="contact-form" id="cf" style="display:none">
   <form action="https://formspree.io/f/meqypekg" method="POST">
     <p class="mt-0"><strong>Name</strong></p>
     <input type="text" name="name" class="pl-2" required />
